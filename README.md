@@ -13,7 +13,8 @@ This project applies machine learning to detect **beaconing patterns** and **ano
 
 ---
 
-<img width="1210" alt="image" src="https://github.com/user-attachments/assets/3b1c9ee9-de9e-48a3-878f-4657cd7abd20" />
+<img width="1390" alt="image" src="https://github.com/user-attachments/assets/1def6035-cd0e-4106-bcdb-d10f83e08720" />
+
 
 
 ---
