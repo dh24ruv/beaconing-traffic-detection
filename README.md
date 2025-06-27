@@ -9,7 +9,6 @@ This project applies machine learning to detect **beaconing patterns** and **ano
 - 📡 **Beaconing**: Repeated packets to the same destination at fixed intervals
 - 🧨 **Outlier Behavior**: Abnormal packet lengths, unusual ports, rare IPs
 - 🌍 **Suspicious IP Origins**: Attribution using WHOIS and ASN data
-- 📈 **Visual Evidence**: Time-series plots of detected anomalies
 
 ---
 
@@ -57,7 +56,7 @@ network-traffic-analyzer/
 
 ## 🚀 Installation & Setup
 
-### 1. Clone Repository
+1. Clone Repository
 
 git clone https://github.com/dh24ruv/network-traffic-analyzer.git
 cd network-traffic-analyzer
