@@ -1,4 +1,4 @@
-# 🛰 Network Beaconing & Anomaly Detection using Machine Learning
+#  Network Beaconing & Anomaly Detection using Machine Learning
 
 This project applies machine learning to detect **beaconing patterns** and **anomalies** in network traffic captured via `.pcap` files. Beaconing — a telltale sign of malware or command-and-control (C2) channels — involves repeated, periodic communication with external IPs. This tool automates detection and visualization of such suspicious behaviors using Isolation Forest and traffic analysis.
 
@@ -18,7 +18,7 @@ This project applies machine learning to detect **beaconing patterns** and **ano
 
 ---
 
-## ⚙️ Features
+##  Features
 
 -  **PCAP to CSV conversion** using `tshark`
 -  **Feature extraction**: IPs, ports, timestamps, packet sizes
