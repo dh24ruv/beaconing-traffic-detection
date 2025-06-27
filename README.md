@@ -1,14 +1,14 @@
-# 🛰️ Network Beaconing & Anomaly Detection using Machine Learning
+# 🛰 Network Beaconing & Anomaly Detection using Machine Learning
 
 This project applies machine learning to detect **beaconing patterns** and **anomalies** in network traffic captured via `.pcap` files. Beaconing — a telltale sign of malware or command-and-control (C2) channels — involves repeated, periodic communication with external IPs. This tool automates detection and visualization of such suspicious behaviors using Isolation Forest and traffic analysis.
 
 ---
 
-## 🔍 What This Project Detects
+##  What This Project Detects
 
-- 📡 **Beaconing**: Repeated packets to the same destination at fixed intervals
-- 🧨 **Outlier Behavior**: Abnormal packet lengths, unusual ports, rare IPs
-- 🌍 **Suspicious IP Origins**: Attribution using WHOIS and ASN data
+-  **Beaconing**: Repeated packets to the same destination at fixed intervals
+-  **Outlier Behavior**: Abnormal packet lengths, unusual ports, rare IPs
+-  **Suspicious IP Origins**: Attribution using WHOIS and ASN data
 
 ---
 
@@ -20,23 +20,23 @@ This project applies machine learning to detect **beaconing patterns** and **ano
 
 ## ⚙️ Features
 
-- ✅ **PCAP to CSV conversion** using `tshark`
-- 📊 **Feature extraction**: IPs, ports, timestamps, packet sizes
-- 🧠 **Anomaly detection** using Isolation Forest
-- 🌍 **IP attribution** using WHOIS and IPWhois
-- 📈 **Visualization** using Matplotlib
-- 🔐 Focused on integrating **data science into cybersecurity**
+-  **PCAP to CSV conversion** using `tshark`
+-  **Feature extraction**: IPs, ports, timestamps, packet sizes
+-  **Anomaly detection** using Isolation Forest
+-  **IP attribution** using WHOIS and IPWhois
+-  **Visualization** using Matplotlib
+-  Focused on integrating **data science into cybersecurity**
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.12
 - pandas, scikit-learn, matplotlib
 - tshark (Wireshark CLI)
 - ipwhois
 
-## 🧠 Techniques Used
+##  Techniques Used
 
 - `tshark` to extract raw packet features from `.pcap` files
 - `pandas` for data cleaning & timestamp processing
@@ -45,7 +45,7 @@ This project applies machine learning to detect **beaconing patterns** and **ano
 - `matplotlib` for plotting anomalies over time
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 network-traffic-analyzer/
 ├── analysis.py # ML model + anomaly analysis
@@ -54,7 +54,7 @@ network-traffic-analyzer/
 ├── beacon_mac.pcap # Sample PCAP file
 └── README.md
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1. Clone Repository
 
